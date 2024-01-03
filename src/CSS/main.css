@@ -4,6 +4,9 @@
 }
 body {
     font-family: 'Inter', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    background: #efefef;
 }
 .header {
     display: flex;
@@ -21,4 +24,61 @@ body {
     font-weight: 300;
     letter-spacing: -1px;
     font-size: 20px;
+}
+
+/* STYLING THE MAIN STUFF NOW */
+.img {
+    width: 30%;
+}
+.img img {
+    width: 100%;
+}
+.journalContainer {
+    display: flex;
+    gap: 2em;
+   padding: 2em;
+    align-items: center;
+    justify-content: space-between;
+    color: #2B283A;
+    background: #fff;
+}
+.journalContent {
+    width: 80%;
+}
+.journalText {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.locationDetails {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.locationDetails p {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.journalText .location {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.journalText .location img {
+    width: 17px;
+}
+.journalText .location a {
+    color: gray;
+}
+.journalText .title {
+    font-size: 2em;
+}
+.details {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.details p{
+    font-size: 0.9em;
 }
